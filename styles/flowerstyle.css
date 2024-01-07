@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    color: #fff;
+    background: #E55473;
+    display: inline-flex;
+    padding: 15px 30px;
+    /* align-items: flex-start; */
+    gap: 10px;
+    border: none;
+}
+
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+    max-height: 650px;
+    margin-bottom: 0;
+}
+
+.container {
+    width: 75%;
+    max-width: 1440px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 150px 0px 273px 180px;
+    align-items: center;
+}
+
+.container .banner-content>h3,
+p,
+input {
+    margin-bottom: 25px;
+}
+
+.banner-content .banner-title {
+    width: 530px;
+    max-height: 215px;
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+/* .banner-content p{
+    max-width: 475px;
+    max-height: 68px;
+    color: rgba(39, 39, 39, 0.60);
+    color: red;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+} */
+
+.container .banner-image > img{
+    width: 470px;
+    max-height: 500px;
+    vertical-align: middle;
+}
